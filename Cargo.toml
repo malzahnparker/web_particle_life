@@ -1,0 +1,11 @@
+[package]
+name = "web_particle_life"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.15.2"
+bevy_egui = "0.33.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
